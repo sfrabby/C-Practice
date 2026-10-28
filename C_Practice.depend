@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1793197474 source:d:\c practice\c_practice\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+
+1793205405 source:d:\c practice\c_practice\output.c
+	<stdio.h>
+
