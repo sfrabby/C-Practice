@@ -6,6 +6,8 @@ int main()
     int Roll;
     double CGPA;
     char Section;
+    int previousRoll;
+    char previousSection;
 
     printf("Enter Your Name: ");
     scanf("%s", Name); // & বাদ দিয়ে শুধু Name
@@ -25,6 +27,10 @@ int main()
     printf("Roll: %d\n", Roll);
     printf("CGPA: %.2lf\n", CGPA);
     printf("Section: %c\n", Section);
+
+    printf("Inter Your Previous Section And Number");
+    scanf("%c %d",&previousSection , previousRoll);
+    printf("%d %d", previousSection , previousRoll);
 
     return 0;
 }
